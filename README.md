@@ -33,6 +33,9 @@ Let's take the example of changing the background :
 
 ..and that's it! The image would have been applied to the background, and it'll stay that way until you clear your browser cache or move the image to another place.
 
+### How do I change the search engine ?
+look through the code of `flask-local.py` and at the line `return(redirect("https://search.brave.com/search?q={}&source=web".format(value)))`, you can change the url to use whatever search engine you want
+
 ## Preview
 <p align="center">
 <img src="nightly-flask.png" width="600">
