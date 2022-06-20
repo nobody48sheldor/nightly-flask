@@ -31,3 +31,4 @@ Let's take the example of changing the background :
 <p align="center">
 <img src="preview.png" width="600">
 </p>
+

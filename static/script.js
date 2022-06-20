@@ -216,8 +216,8 @@ function main() {
         body.style.backgroundImage = "url(" + localStorage.getItem("generalBackground") + ")";
         generalBackgroundSetting.value = localStorage.getItem("generalBackground");
     } else {
-        body.style.backgroundImage = "url('assets/calvin.jpg')";
-        generalBackgroundSetting.value = "assets/calvin.jpg";
+        body.style.backgroundImage = "url('https://imgs.search.brave.com/f9ifCLlPKgUcPZjkVRelT4hbf_w8ZAEk97j5oBsydTM/rs:fit:1200:1152:1/g:ce/aHR0cDovL3d3dy5w/aXhlbHN0YWxrLm5l/dC93cC1jb250ZW50/L3VwbG9hZHMvMjAx/Ni8wNi9OaWdodC1T/a3ktV2FsbHBhcGVy/cy1IRC1GcmVlLURv/d25sb2FkLmpwZw')";
+        generalBackgroundSetting.value = "/assets/night-sky.jpg";
     }
     if (localStorage.getItem("generalBlurIntensity") != null) {
         apexContainer.style.backdropFilter = "blur(" + localStorage.getItem("generalBlurIntensity") + "px)";
